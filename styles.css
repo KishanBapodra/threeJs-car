@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: rgb(150,75,0);
+    background-color: radial-gradient(circle, rgba(128,68,8,1) 0%, rgba(65,33,0,1) 100%);
+}
+
+.scene, canvas {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
